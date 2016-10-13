@@ -1,0 +1,15 @@
+---
+galaxy_info:
+  author: Denis Khabarov
+  description: Ansible role for disabling requiretty setting in /etc/sudoers to enable Ansible pipelining
+  license: GPLv3
+  min_ansible_version: 1.4
+  platforms:
+  - name: Ubuntu
+    versions:
+     - trusty
+  categories:
+  - development
+  - system
+  - sudo
+dependencies: []

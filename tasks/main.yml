@@ -1,0 +1,6 @@
+---
+- name: disable requiretty setting
+  lineinfile:
+    dest: /etc/sudoers
+    regexp: 'Defaults\s*requiretty'
+    line: '#Defaults    requiretty'
